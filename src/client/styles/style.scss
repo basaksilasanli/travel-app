@@ -1,0 +1,34 @@
+:root {
+  --color-primary: #fff0f5;
+  --color-secondary: #f0f8ff;
+  --color-accent: #f8f4ff;
+  --color-dark: #f4c2c2;
+  --color-light: #fff;
+}
+
+body {
+  background: var(--color-accent);
+  color: var(--color-dark);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  background: var(--color-secondary);
+  border-radius: 3px;
+  box-shadow: 0 -1rem 2rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  width: 50vw;
+}
+
+.flag {
+  width: 47px;
+}
+
+
